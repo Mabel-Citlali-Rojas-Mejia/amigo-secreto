@@ -1,0 +1,26 @@
+## Descripción
+
+Una aplicación simple desarrollada con HTML, CSS y JavaScript puro. Permite ingresar nombres de amigos y realizar un sorteo aleatorio para elegir a un "amigo secreto".
+
+Ideal para entender y practicar conceptos como:
+
+- Manejo del DOM con JavaScript
+- Lógica básica de programación
+- Manipulación de listas
+- Eventos y validaciones
+
+---
+
+## Características
+
+-  Agregar nombres de amigos
+-  Mostrar los nombres en pantalla
+-  Realizar un sorteo aleatorio
+-  Interfaz clara y amigable
+
+
+---
+
+## Versión actual
+
+
