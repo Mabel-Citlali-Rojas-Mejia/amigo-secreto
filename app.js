@@ -30,13 +30,13 @@ function limpiarCaja() {
 function mostrarLista() {
     let lista = document.getElementById('listaAmigos');
     lista.innerHTML = ''; 
-
-    for (let i = 0; i < amigos.length; i++) {
+    amigos.forEach((amigo) => {
         let li = document.createElement('li');
-        li.textContent = amigos[i];
+        li.textContent = amigo;
         lista.appendChild(li);
-    }
+    });
 }
+
 
 // Función para sortear un amigo aleatorio
 function sortearAmigo(){
