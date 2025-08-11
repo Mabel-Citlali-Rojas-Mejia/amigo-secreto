@@ -18,3 +18,16 @@ function agregarAmigo(){
            mostrarLista(); 
     }
 } 
+function limpiarCaja(){
+     document.querySelector('#amigo').value = '';
+   
+}
+function mostrarLista() {
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = ''; 
+    amigos.forEach((amigo) => {
+        let li = document.createElement('li');
+        li.textContent = amigo;
+        lista.appendChild(li);
+    });
+}
